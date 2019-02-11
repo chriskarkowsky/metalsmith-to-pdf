@@ -1,0 +1,26 @@
+{
+  "name": "metalsmith-to-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "pdfkit": "^0.9.0",
+    "puppeteer": "^1.12.2"
+  },
+  "devDependencies": {
+    "metalsmith": "^2.3.0",
+    "metalsmith-markdown": "^1.1.0",
+    "metalsmith-permalinks": "^2.1.0",
+    "metalsmith-templates": "^0.7.0"
+  }
+}
